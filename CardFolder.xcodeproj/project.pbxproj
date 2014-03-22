@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		248E117518DCA50F00AA1233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E117418DCA50F00AA1233 /* Foundation.framework */; };
+		248E117718DCA50F00AA1233 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E117618DCA50F00AA1233 /* CoreGraphics.framework */; };
+		248E117918DCA50F00AA1233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E117818DCA50F00AA1233 /* UIKit.framework */; };
+		248E117F18DCA50F00AA1233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 248E117D18DCA50F00AA1233 /* InfoPlist.strings */; };
+		248E118118DCA50F00AA1233 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E118018DCA50F00AA1233 /* main.m */; };
+		248E118518DCA50F00AA1233 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E118418DCA50F00AA1233 /* AppDelegate.m */; };
+		248E118718DCA50F00AA1233 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 248E118618DCA50F00AA1233 /* Images.xcassets */; };
+		248E118E18DCA51000AA1233 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E118D18DCA50F00AA1233 /* XCTest.framework */; };
+		248E118F18DCA51000AA1233 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E117418DCA50F00AA1233 /* Foundation.framework */; };
+		248E119018DCA51000AA1233 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 248E117818DCA50F00AA1233 /* UIKit.framework */; };
+		248E119818DCA51000AA1233 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 248E119618DCA51000AA1233 /* InfoPlist.strings */; };
+		248E119A18DCA51000AA1233 /* CardFolderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E119918DCA51000AA1233 /* CardFolderTests.m */; };
+		248E11A618DCA53900AA1233 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11A418DCA53900AA1233 /* MainViewController.m */; };
+		248E11A718DCA53900AA1233 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11A518DCA53900AA1233 /* MainViewController.xib */; };
+		248E11AB18DCA91200AA1233 /* TabHeaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11A918DCA91200AA1233 /* TabHeaderViewController.m */; };
+		248E11AC18DCA91200AA1233 /* TabHeaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11AA18DCA91200AA1233 /* TabHeaderViewController.xib */; };
+		248E11B018DCA9EB00AA1233 /* CardFolderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11AE18DCA9EB00AA1233 /* CardFolderListViewController.m */; };
+		248E11B118DCA9EB00AA1233 /* CardFolderListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11AF18DCA9EB00AA1233 /* CardFolderListViewController.xib */; };
+		248E11B518DCAB8E00AA1233 /* CardFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11B318DCAB8E00AA1233 /* CardFolderViewController.m */; };
+		248E11B618DCAB8E00AA1233 /* CardFolderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11B418DCAB8E00AA1233 /* CardFolderViewController.xib */; };
+		248E11B918DCABBC00AA1233 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11B818DCABBC00AA1233 /* CardView.m */; };
+		248E11BB18DCABCC00AA1233 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11BA18DCABCC00AA1233 /* CardView.xib */; };
+		248E11BF18DCAC2200AA1233 /* CardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11BD18DCAC2200AA1233 /* CardDetailViewController.m */; };
+		248E11C018DCAC2200AA1233 /* CardDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 248E11BE18DCAC2200AA1233 /* CardDetailViewController.xib */; };
+		248E11C318DCAFF600AA1233 /* CardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 248E11C218DCAFF600AA1233 /* CardData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		248E119118DCA51000AA1233 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 248E116918DCA50F00AA1233 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 248E117018DCA50F00AA1233;
+			remoteInfo = ContainerTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		248E117118DCA50F00AA1233 /* CardFolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardFolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		248E117418DCA50F00AA1233 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		248E117618DCA50F00AA1233 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		248E117818DCA50F00AA1233 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		248E117C18DCA50F00AA1233 /* CardFolder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardFolder-Info.plist"; sourceTree = "<group>"; };
+		248E117E18DCA50F00AA1233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		248E118018DCA50F00AA1233 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E118218DCA50F00AA1233 /* CardFolder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CardFolder-Prefix.pch"; sourceTree = "<group>"; };
+		248E118318DCA50F00AA1233 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		248E118418DCA50F00AA1233 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E118618DCA50F00AA1233 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		248E118C18DCA50F00AA1233 /* CardFolderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardFolderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		248E118D18DCA50F00AA1233 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		248E119518DCA51000AA1233 /* CardFolderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CardFolderTests-Info.plist"; sourceTree = "<group>"; };
+		248E119718DCA51000AA1233 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		248E119918DCA51000AA1233 /* CardFolderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardFolderTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11A318DCA53900AA1233 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MainViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11A418DCA53900AA1233 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11A518DCA53900AA1233 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		248E11A818DCA91200AA1233 /* TabHeaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TabHeaderViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11A918DCA91200AA1233 /* TabHeaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TabHeaderViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11AA18DCA91200AA1233 /* TabHeaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabHeaderViewController.xib; sourceTree = "<group>"; };
+		248E11AD18DCA9EB00AA1233 /* CardFolderListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CardFolderListViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11AE18DCA9EB00AA1233 /* CardFolderListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardFolderListViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11AF18DCA9EB00AA1233 /* CardFolderListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFolderListViewController.xib; sourceTree = "<group>"; };
+		248E11B218DCAB8E00AA1233 /* CardFolderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CardFolderViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11B318DCAB8E00AA1233 /* CardFolderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardFolderViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11B418DCAB8E00AA1233 /* CardFolderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFolderViewController.xib; sourceTree = "<group>"; };
+		248E11B718DCABBC00AA1233 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CardView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11B818DCABBC00AA1233 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11BA18DCABCC00AA1233 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		248E11BC18DCAC2200AA1233 /* CardDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CardDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11BD18DCAC2200AA1233 /* CardDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		248E11BE18DCAC2200AA1233 /* CardDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardDetailViewController.xib; sourceTree = "<group>"; };
+		248E11C118DCAFF600AA1233 /* CardData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CardData.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		248E11C218DCAFF600AA1233 /* CardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CardData.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		248E116E18DCA50F00AA1233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E117718DCA50F00AA1233 /* CoreGraphics.framework in Frameworks */,
+				248E117918DCA50F00AA1233 /* UIKit.framework in Frameworks */,
+				248E117518DCA50F00AA1233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E118918DCA50F00AA1233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E118E18DCA51000AA1233 /* XCTest.framework in Frameworks */,
+				248E119018DCA51000AA1233 /* UIKit.framework in Frameworks */,
+				248E118F18DCA51000AA1233 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		248E116818DCA50F00AA1233 = {
+			isa = PBXGroup;
+			children = (
+				248E117A18DCA50F00AA1233 /* CardFolder */,
+				248E119318DCA51000AA1233 /* CardFolderTests */,
+				248E117318DCA50F00AA1233 /* Frameworks */,
+				248E117218DCA50F00AA1233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		248E117218DCA50F00AA1233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				248E117118DCA50F00AA1233 /* CardFolder.app */,
+				248E118C18DCA50F00AA1233 /* CardFolderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		248E117318DCA50F00AA1233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				248E117418DCA50F00AA1233 /* Foundation.framework */,
+				248E117618DCA50F00AA1233 /* CoreGraphics.framework */,
+				248E117818DCA50F00AA1233 /* UIKit.framework */,
+				248E118D18DCA50F00AA1233 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		248E117A18DCA50F00AA1233 /* CardFolder */ = {
+			isa = PBXGroup;
+			children = (
+				248E11C518DCB01400AA1233 /* App */,
+				248E11C418DCAFFF00AA1233 /* Model */,
+				248E11C618DCB02C00AA1233 /* View */,
+			);
+			path = CardFolder;
+			sourceTree = "<group>";
+		};
+		248E117B18DCA50F00AA1233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				248E117C18DCA50F00AA1233 /* CardFolder-Info.plist */,
+				248E117D18DCA50F00AA1233 /* InfoPlist.strings */,
+				248E118018DCA50F00AA1233 /* main.m */,
+				248E118218DCA50F00AA1233 /* CardFolder-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		248E119318DCA51000AA1233 /* CardFolderTests */ = {
+			isa = PBXGroup;
+			children = (
+				248E119918DCA51000AA1233 /* CardFolderTests.m */,
+				248E119418DCA51000AA1233 /* Supporting Files */,
+			);
+			path = CardFolderTests;
+			sourceTree = "<group>";
+		};
+		248E119418DCA51000AA1233 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				248E119518DCA51000AA1233 /* CardFolderTests-Info.plist */,
+				248E119618DCA51000AA1233 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		248E11C418DCAFFF00AA1233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				248E11C118DCAFF600AA1233 /* CardData.h */,
+				248E11C218DCAFF600AA1233 /* CardData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		248E11C518DCB01400AA1233 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				248E117B18DCA50F00AA1233 /* Supporting Files */,
+				248E118318DCA50F00AA1233 /* AppDelegate.h */,
+				248E118418DCA50F00AA1233 /* AppDelegate.m */,
+				248E118618DCA50F00AA1233 /* Images.xcassets */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		248E11C618DCB02C00AA1233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				248E11C718DCB13F00AA1233 /* CardFolder */,
+				248E11A318DCA53900AA1233 /* MainViewController.h */,
+				248E11A418DCA53900AA1233 /* MainViewController.m */,
+				248E11A518DCA53900AA1233 /* MainViewController.xib */,
+				248E11A818DCA91200AA1233 /* TabHeaderViewController.h */,
+				248E11A918DCA91200AA1233 /* TabHeaderViewController.m */,
+				248E11AA18DCA91200AA1233 /* TabHeaderViewController.xib */,
+				248E11BC18DCAC2200AA1233 /* CardDetailViewController.h */,
+				248E11BD18DCAC2200AA1233 /* CardDetailViewController.m */,
+				248E11BE18DCAC2200AA1233 /* CardDetailViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		248E11C718DCB13F00AA1233 /* CardFolder */ = {
+			isa = PBXGroup;
+			children = (
+				248E11AD18DCA9EB00AA1233 /* CardFolderListViewController.h */,
+				248E11AE18DCA9EB00AA1233 /* CardFolderListViewController.m */,
+				248E11AF18DCA9EB00AA1233 /* CardFolderListViewController.xib */,
+				248E11B218DCAB8E00AA1233 /* CardFolderViewController.h */,
+				248E11B318DCAB8E00AA1233 /* CardFolderViewController.m */,
+				248E11B418DCAB8E00AA1233 /* CardFolderViewController.xib */,
+				248E11B718DCABBC00AA1233 /* CardView.h */,
+				248E11B818DCABBC00AA1233 /* CardView.m */,
+				248E11BA18DCABCC00AA1233 /* CardView.xib */,
+			);
+			name = CardFolder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		248E117018DCA50F00AA1233 /* CardFolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248E119D18DCA51000AA1233 /* Build configuration list for PBXNativeTarget "CardFolder" */;
+			buildPhases = (
+				248E116D18DCA50F00AA1233 /* Sources */,
+				248E116E18DCA50F00AA1233 /* Frameworks */,
+				248E116F18DCA50F00AA1233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardFolder;
+			productName = ContainerTest;
+			productReference = 248E117118DCA50F00AA1233 /* CardFolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		248E118B18DCA50F00AA1233 /* CardFolderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 248E11A018DCA51000AA1233 /* Build configuration list for PBXNativeTarget "CardFolderTests" */;
+			buildPhases = (
+				248E118818DCA50F00AA1233 /* Sources */,
+				248E118918DCA50F00AA1233 /* Frameworks */,
+				248E118A18DCA50F00AA1233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				248E119218DCA51000AA1233 /* PBXTargetDependency */,
+			);
+			name = CardFolderTests;
+			productName = ContainerTestTests;
+			productReference = 248E118C18DCA50F00AA1233 /* CardFolderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		248E116918DCA50F00AA1233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Individual;
+				TargetAttributes = {
+					248E118B18DCA50F00AA1233 = {
+						TestTargetID = 248E117018DCA50F00AA1233;
+					};
+				};
+			};
+			buildConfigurationList = 248E116C18DCA50F00AA1233 /* Build configuration list for PBXProject "CardFolder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 248E116818DCA50F00AA1233;
+			productRefGroup = 248E117218DCA50F00AA1233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				248E117018DCA50F00AA1233 /* CardFolder */,
+				248E118B18DCA50F00AA1233 /* CardFolderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		248E116F18DCA50F00AA1233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E117F18DCA50F00AA1233 /* InfoPlist.strings in Resources */,
+				248E11C018DCAC2200AA1233 /* CardDetailViewController.xib in Resources */,
+				248E11B118DCA9EB00AA1233 /* CardFolderListViewController.xib in Resources */,
+				248E11AC18DCA91200AA1233 /* TabHeaderViewController.xib in Resources */,
+				248E11BB18DCABCC00AA1233 /* CardView.xib in Resources */,
+				248E11A718DCA53900AA1233 /* MainViewController.xib in Resources */,
+				248E11B618DCAB8E00AA1233 /* CardFolderViewController.xib in Resources */,
+				248E118718DCA50F00AA1233 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E118A18DCA50F00AA1233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E119818DCA51000AA1233 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		248E116D18DCA50F00AA1233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E11C318DCAFF600AA1233 /* CardData.m in Sources */,
+				248E118518DCA50F00AA1233 /* AppDelegate.m in Sources */,
+				248E11BF18DCAC2200AA1233 /* CardDetailViewController.m in Sources */,
+				248E11AB18DCA91200AA1233 /* TabHeaderViewController.m in Sources */,
+				248E11B018DCA9EB00AA1233 /* CardFolderListViewController.m in Sources */,
+				248E11A618DCA53900AA1233 /* MainViewController.m in Sources */,
+				248E11B518DCAB8E00AA1233 /* CardFolderViewController.m in Sources */,
+				248E118118DCA50F00AA1233 /* main.m in Sources */,
+				248E11B918DCABBC00AA1233 /* CardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		248E118818DCA50F00AA1233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				248E119A18DCA51000AA1233 /* CardFolderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		248E119218DCA51000AA1233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 248E117018DCA50F00AA1233 /* CardFolder */;
+			targetProxy = 248E119118DCA51000AA1233 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		248E117D18DCA50F00AA1233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248E117E18DCA50F00AA1233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		248E119618DCA51000AA1233 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				248E119718DCA51000AA1233 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		248E119B18DCA51000AA1233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		248E119C18DCA51000AA1233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		248E119E18DCA51000AA1233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardFolder/CardFolder-Prefix.pch";
+				INFOPLIST_FILE = "CardFolder/CardFolder-Info.plist";
+				PRODUCT_NAME = CardFolder;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		248E119F18DCA51000AA1233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CardFolder/CardFolder-Prefix.pch";
+				INFOPLIST_FILE = "CardFolder/CardFolder-Info.plist";
+				PRODUCT_NAME = CardFolder;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		248E11A118DCA51000AA1233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardFolder.app/CardFolder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContainerTest/ContainerTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ContainerTestTests/CardFolderTests-Info.plist";
+				PRODUCT_NAME = CardFolderTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		248E11A218DCA51000AA1233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CardFolder.app/CardFolder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ContainerTest/ContainerTest-Prefix.pch";
+				INFOPLIST_FILE = "ContainerTestTests/CardFolderTests-Info.plist";
+				PRODUCT_NAME = CardFolderTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		248E116C18DCA50F00AA1233 /* Build configuration list for PBXProject "CardFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E119B18DCA51000AA1233 /* Debug */,
+				248E119C18DCA51000AA1233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248E119D18DCA51000AA1233 /* Build configuration list for PBXNativeTarget "CardFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E119E18DCA51000AA1233 /* Debug */,
+				248E119F18DCA51000AA1233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		248E11A018DCA51000AA1233 /* Build configuration list for PBXNativeTarget "CardFolderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248E11A118DCA51000AA1233 /* Debug */,
+				248E11A218DCA51000AA1233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 248E116918DCA50F00AA1233 /* Project object */;
+}
